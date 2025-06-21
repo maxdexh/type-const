@@ -2,12 +2,12 @@ use crate::{Const, DefaultConst};
 
 macro_rules! tuple_doc {
     ($count:literal $T:ident; $item:item) => {
-        #[cfg_attr(docsrs, doc(fake_variadic))]
-        #[cfg_attr(docsrs, doc = ::core::concat!("This trait is implemented for tuples up to ", $count, " items long."))]
+        // #[cfg_attr(docsrs, doc(fake_variadic))]
+        // #[cfg_attr(docsrs, doc = ::core::concat!("This trait is implemented for tuples up to ", $count, " items long."))]
         $item
     };
     ($count:literal $_:ident $($T:ident)+; $item:item) => {
-        #[cfg_attr(docsrs, doc(hidden))]
+        // #[cfg_attr(docsrs, doc(hidden))]
         $item
     };
 }
