@@ -1,7 +1,7 @@
 //! This crate provides simple utils for passing `const` values around through generics,
 //! in the form of types.
 //!
-//! The concept of a type const is expressed through the [`Const`] trait, which holds the type and
+//! The concept of a type const is expressed through the [`Const`](crate::Const) trait, which holds the type and
 //! the value of the constant.
 //!
 //! Passing values that are known at compile time through generics is different from passing

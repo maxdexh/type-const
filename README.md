@@ -1,9 +1,13 @@
-# type-const
+[![Crates.io](https://img.shields.io/crates/v/type-const.svg)](https://crates.io/crates/type-const)
+[![Documentation](https://docs.rs/type-const/badge.svg)](https://docs.rs/type-const)
+[![Rust](https://img.shields.io/badge/rust-1.78.0%2B-blue.svg?maxAge=3600)](https://github.com/rust-lang/type-const)
+
+<!-- cargo-rdme start -->
 
 This crate provides simple utils for passing `const` values around through generics,
 in the form of types.
 
-The concept of a type const is expressed through the [`Const`] trait, which holds the type and
+The concept of a type const is expressed through the [`Const`](https://docs.rs/type-const/latest/type_const/trait.Const.html) trait, which holds the type and
 the value of the constant.
 
 Passing values that are known at compile time through generics is different from passing
@@ -28,4 +32,4 @@ trait AddConst<Rhs=Self> {
 }
 ```
 
-License: MIT
+<!-- cargo-rdme end -->
