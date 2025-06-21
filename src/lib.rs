@@ -1,3 +1,5 @@
+#![allow(rustdoc::redundant_explicit_links)]
+
 //! This crate provides simple utils for passing `const` values around through generics,
 //! in the form of types.
 //!
