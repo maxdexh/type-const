@@ -24,7 +24,7 @@
 //!     type Add<
 //!         LhsC: type_const::Const<Type = Self>,
 //!         RhsC: type_const::Const<Type = Rhs>,
-//!     >: Const<Type = Self::Output>;
+//!     >: type_const::Const<Type = Self::Output>;
 //! }
 //! ```
 
