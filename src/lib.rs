@@ -28,7 +28,7 @@
 //! }
 //! ```
 
-/// Describes a type const.
+/// Describes a type that holds an associated const value.
 pub trait Const {
     /// The value type of the const
     type Type;
