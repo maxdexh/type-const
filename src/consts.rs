@@ -1,6 +1,6 @@
 //! A small collection of useful consts.
 
-use std::mem::MaybeUninit;
+use core::mem::MaybeUninit;
 
 use crate::Const;
 
